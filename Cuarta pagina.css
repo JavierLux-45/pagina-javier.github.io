@@ -1,0 +1,406 @@
+body{
+  
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("hombres/fondoprincipal1.jpg"); /* Ruta a tu imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center center; /* Centra la imagen */
+    background-attachment: fixed; /* La imagen se mantiene fija al hacer scroll */
+    
+    
+}
+main {
+    min-height: 80vh; /* Espacio mínimo para el contenido principal */
+    padding: 20px; /* Espaciado interno del contenido */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para el contenido */
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+
+
+
+.arriba{
+    background-color: silver;
+    height: 95px;
+    width: 100%;
+}
+/* los estilos de las letras de titulo principal....................................*/
+li a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+nav{
+    position: absolute;
+    top: 5%;
+    right: 100px;
+    font-size: 30px;
+    width: 40%;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 30px;
+} 
+nav a:hover{
+    color: #15151a;
+    text-decoration: underline;
+}
+
+/* logo principal-------------------------------------------------------------------*/
+.imagen{
+    width: 95px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+/* imagen principal de esta pagina -------------------------------------------------*/
+.video{
+    
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    
+}
+.video video {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.contenido-principal {
+    text-align: center; /* Centra el texto dentro del contenedor */
+    margin: 5px 0; /* Añade margen arriba y abajo del contenedor */
+    padding: 20px; /* Añade padding alrededor del texto */
+    background-color: #f5f5f5; /* Color de fondo suave */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para un efecto elevado */
+}
+
+.contenido-principal h2 {
+    font-size: 2.5em; /* Tamaño del título */
+    color:black; /* Color del texto del título */
+    margin: 0; /* Elimina el margen por defecto del h2 */
+}
+
+/*imagenes de los productos---------------------------------------------------------*/
+.tf{
+    width: 50%;
+    
+ }
+
+
+.pruductos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/*para modificar todas la imagnes*/
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 21%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+   /* border: 3px solid #000000; para el margen de las imagen*/
+    border-radius: 25px 25px 25px 25px;
+    padding: 30px;
+    margin-bottom: 50px;
+    box-shadow: 0 10px 20px black;
+    margin-top: 50px;
+    cursor: pointer;
+    background-color: #fff;
+    height: 350px;
+    text-align: center
+    
+    
+
+
+}
+
+.productos-descripción{ 
+    margin: 10px;
+
+}
+/*para que se resalte al tocarlo*/
+.productos{
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    
+}
+
+.productos  {
+    cursor: pointer;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    
+}
+
+.productos :hover {
+    transform: scale(1.2);
+    z-index: 1;
+    
+    
+}
+
+.productos :hover ~ .productos {
+    filter: brightness(0.5);
+    transform: scale(1);
+    
+}
+
+
+
+/*inician las imagnes*/
+
+.producto1{  
+    
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    margin: 20px;
+    border-radius: 25px 25px 25px 25px;
+    
+}
+
+.producto4{  
+    
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    margin: 20px;
+    border-radius: 25px 25px 25px 25px;
+    
+}
+.tacos4{  
+    
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    margin: 20px;
+    border-radius: 25px 25px 25px 25px;
+    
+}
+.tenis1{
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    margin: 20px;
+    border-radius: 25px 25px 25px 25px;
+    
+}
+.teniss2{
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    margin: 20px;
+    border-radius: 25px 25px 25px 25px;
+    
+}
+.tenis3{
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    margin: 20px;
+    border-radius: 25px 25px 25px 25px;
+    
+}
+.teniss4{  
+    
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    margin: 20px;
+    border-radius: 25px 25px 25px 25px;
+}
+.playera1{
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    margin: 20px;
+    border-radius: 25px 25px 25px 25px;
+    
+}
+.playera2{
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    
+    border-radius: 25px 25px 25px 25px;
+    margin: 20px;
+    
+}
+.playera3{
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    
+    border-radius: 25px 25px 25px 25px;
+    margin: 20px;
+    
+}
+.playera4{
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    
+    border-radius: 25px 25px 25px 25px;
+    margin: 20px;
+    
+}
+
+.short1{
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    
+    border-radius: 25px 25px 25px 25px;
+    margin: 20px;
+    
+}
+
+.short2{
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    
+    border-radius: 25px 25px 25px 25px;
+    margin: 20px;
+    
+}
+
+.pants1{
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    
+    border-radius: 25px 25px 25px 25px;
+    margin: 20px;
+    
+}
+
+.pants2{
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    
+    border-radius: 25px 25px 25px 25px;
+    margin: 20px;
+    
+}
+
+
+
+/* el class del texto central-----------------------------------------------------*/
+.texto h2{
+    font-size: 3rem;
+   
+    top: 0;
+    left: 0;
+    transform: translate(30%, 0%);
+    padding: 50px;
+    z-index: 1; 
+    color: rgb(12, 11, 11); /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    
+    
+}
+
+
+/* pie de pagina -------------------------------------------------------------------*/
+footer {
+    
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position:relative;
+    bottom: 0;
+    width: 100%; 
+    margin-top: 0px;
+    clear: both;
+
+    }
+    footer p {
+        margin-bottom: 10px; /* Margen inferior para separar texto de los íconos */
+    }
+    footer a {
+        text-decoration: none;
+        font-size: 25px; /* Tamaño de los íconos */
+        margin: 0 15px; /* Margen alrededor de los íconos */
+    }
+
+    
+    footer a.facebook {
+        margin: 0 10px;
+        text-decoration: none;
+        color: blue; /* Color de Facebook */
+    }
+    footer a.instagram {
+        color: #E4405F; /* Color de Instagram */
+    }
+    footer a:hover {
+        color: #1d305b; /* Color más oscuro al pasar el mouse */
+    }
+    footer a.instagram:hover {
+        color: #C13584; /* Color más oscuro al pasar el mouse en Instagram */
+    }
+
+    footer a.twitter {
+        color: #1DA1F2; /* Color de Twitter (X) */
+    }
+
+    footer a.tiktok {
+        color: #000000; /* Color de TikTok */
+    }
+    footer a:hover {
+        opacity: 0.7; /* Opacidad al pasar el mouse */
+    }
+    

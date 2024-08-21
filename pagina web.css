@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("fdprincipal.jpg"); /* Ruta a tu imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center center; /* Centra la imagen */
+    background-attachment: fixed; /* La imagen se mantiene fija al hacer scroll */
+    
+   
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.arriba{
+    background-color: silver;
+    height: 95px;
+    width: 100%;
+}
+
+.imagen{
+    width: 95px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+li a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+
+.video{
+    
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    
+}
+.video video {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* titulo des pues de la imagen ------------- */
+
+.contenido-principal {
+    text-align: center; /* Centra el texto dentro del contenedor */
+    margin: 40px 0; /* Añade margen arriba y abajo del contenedor */
+    padding: 20px; /* Añade padding alrededor del texto */
+    background-color: #f5f5f5; /* Color de fondo suave */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para un efecto elevado */
+}
+
+.contenido-principal h2 {
+    font-size: 2.5em; /* Tamaño del título */
+    color:black; /* Color del texto del título */
+    margin: 0; /* Elimina el margen por defecto del h2 */
+}
+
+/*el texto grande de mi pagina */
+.texto-principal {
+    max-width: 800px; /* Establece un ancho máximo para el contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Añade padding alrededor del texto */
+    text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+.texto-principal h2 {
+    font-size: 2.5em; /* Tamaño del título */
+    color: white; /* Color del título */
+    margin-bottom: 15px; /* Espacio debajo del título */
+}
+
+.texto-principal p {
+    font-size: 1.1em; /* Tamaño del párrafo */
+    color: white; /* Color del texto del párrafo */
+}
+
+/* mision y vision--------------------------------------- */
+
+.textos-divididos {
+    display: flex;
+    justify-content: center; /* Centra los bloques horizontalmente */
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto; /* Centra el contenedor en la pantalla */
+}
+
+.texto-izquierda, .texto-derecha {
+    width: 40%; /* Ajusta el ancho de cada bloque de texto */
+    margin: 0 5%; /* Aumenta el margen a 5% para más espacio */
+    text-align: center; /* Centra el texto dentro de cada bloque */
+    padding: 10px; /* Añade padding a los bloques */
+    border: 1px solid #ccc; /* Añade un borde gris */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.texto-izquierda h2, .texto-derecha h2 {
+    font-size: 2.5em; /* Aumenta el tamaño del título */
+    color: #0073e6; /* Cambia el color a azul */
+}
+
+.texto-izquierda p, .texto-derecha p {
+    font-size: 1.1em; /* Ajusta el tamaño del párrafo */
+    color: white; /* Cambia el color a gris */
+}
+nav{
+    position: absolute;
+    top: 5%;
+    right: 100px;
+    font-size: 30px;
+    width: 30%;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 30px;
+} 
+
+footer {
+    
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position:relative;
+    bottom: 0;
+    width: 100%; 
+    margin-top: 0px;
+    clear: both;
+
+    }
+    footer p {
+        margin-bottom: 10px; /* Margen inferior para separar texto de los íconos */
+    }
+    footer a {
+        text-decoration: none;
+        font-size: 25px; /* Tamaño de los íconos */
+        margin: 0 15px; /* Margen alrededor de los íconos */
+    }
+
+    
+    footer a.facebook {
+        margin: 0 10px;
+        text-decoration: none;
+        color: rgb(18, 18, 219); /* Color de Facebook */
+    }
+    footer a.instagram {
+        color: #E4405F; /* Color de Instagram */
+    }
+    footer a:hover {
+        color: #1d305b; /* Color más oscuro al pasar el mouse */
+    }
+    footer a.instagram:hover {
+        color: #C13584; /* Color más oscuro al pasar el mouse en Instagram */
+    }
+
+    footer a.twitter {
+        color: #1DA1F2; /* Color de Twitter (X) */
+    }
+
+    footer a.tiktok {
+        color: #000000; /* Color de TikTok */
+    }
+    footer a:hover {
+        opacity: 0.7; /* Opacidad al pasar el mouse */
+    }
+    
